@@ -1,4 +1,4 @@
-# 💻 Laptop Price Prediction (TechPricer Neural Engine)
+# 💻 Laptop Price Prediction (ANN)
 
 
 Deployment Link :- https://laptop-price-prediction-qzrteewafuffxbxtnzunvk.streamlit.app/
