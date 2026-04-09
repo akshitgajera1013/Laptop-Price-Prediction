@@ -18,13 +18,14 @@ The system features a monolithic, 6-tab OS environment complete with hardware to
 * **💾 Secure Dossier Export:** Generates downloadable JSON and CSV artifacts containing the input tensor and prediction telemetry.
 
 ## 📁 Repository Structure
-```text
+
 📦 Laptop-Price-Prediction
- ┣ 📜 app.py               # Main Streamlit UI (TechPricer Monolithic Build)
- ┣ 📜 ann_model.h5         # Trained Keras Neural Network (Deep Learning Weights)
- ┣ 📜 preprocessor.pkl     # Scikit-Learn Data Encoder (StandardScaler/OneHot)
- ┣ 📜 requirements.txt     # Python dependency lockfile
- ┗ 📜 README.md            # System documentation
+
+    ┣ 📜 app.py               # Main Streamlit UI (TechPricer Monolithic Build)
+    ┣ 📜 ann_model.h5         # Trained Keras Neural Network (Deep Learning Weights)
+    ┣ 📜 preprocessor.pkl     # Scikit-Learn Data Encoder (StandardScaler/OneHot)
+    ┣ 📜 requirements.txt     # Python dependency lockfile
+    ┗ 📜 README.md            # System documentation
 
  Gemini said
 Here is the complete configuration package for your GitHub repository. I have styled the README.md to match the exact enterprise-grade architecture of the TechPricer Neural Engine we just built, making your repository look highly professional to recruiters, collaborators, or stakeholders.
@@ -63,67 +64,72 @@ Markdown
 The system features a monolithic, 6-tab OS environment complete with hardware topology radar charts, 5-year depreciation forecasting, and Monte Carlo market variance simulations.
 
 ## 🚀 Enterprise Features
-* **🧠 Deep Learning Backend:** Powered by a TensorFlow/Keras Artificial Neural Network (ANN) utilizing ReLU activations and the Adam optimizer.
-* **🕸️ Hardware Topology Analytics:** Dynamic Plotly radar charts to visualize system bottlenecks (Portability vs. Compute Power).
-* **📉 Depreciation Simulator:** Predicts 5-year asset depreciation based on historical decay rates for specific brands and form factors.
-* **🎲 Market Variance Engine:** Executes 100-iteration Monte Carlo simulations to model global pricing volatility.
-* **💾 Secure Dossier Export:** Generates downloadable JSON and CSV artifacts containing the input tensor and prediction telemetry.
+    * **🧠 Deep Learning Backend:** Powered by a TensorFlow/Keras Artificial Neural Network (ANN) utilizing ReLU activations and the Adam optimizer.
+    * **🕸️ Hardware Topology Analytics:** Dynamic Plotly radar charts to visualize system bottlenecks (Portability vs. Compute Power).
+    * **📉 Depreciation Simulator:** Predicts 5-year asset depreciation based on historical decay rates for specific brands and form factors.
+    * **🎲 Market Variance Engine:** Executes 100-iteration Monte Carlo simulations to model global pricing volatility.
+    * **💾 Secure Dossier Export:** Generates downloadable JSON and CSV artifacts containing the input tensor and prediction telemetry.
 
 ## 📁 Repository Structure
-```text
+
 📦 Laptop-Price-Prediction
- ┣ 📜 app.py               # Main Streamlit UI (TechPricer Monolithic Build)
- ┣ 📜 ann_model.h5         # Trained Keras Neural Network (Deep Learning Weights)
- ┣ 📜 preprocessor.pkl     # Scikit-Learn Data Encoder (StandardScaler/OneHot)
- ┣ 📜 requirements.txt     # Python dependency lockfile
- ┗ 📜 README.md            # System documentation
+
+    ┣ 📜 app.py               # Main Streamlit UI (TechPricer Monolithic Build)
+    ┣ 📜 ann_model.h5         # Trained Keras Neural Network (Deep Learning Weights)
+    ┣ 📜 preprocessor.pkl     # Scikit-Learn Data Encoder (StandardScaler/OneHot)
+    ┣ 📜 requirements.txt     # Python dependency lockfile
+    ┗ 📜 README.md            # System documentation
 
 
 🛠️ Installation & Setup
 1. Clone the repository
-git clone [https://github.com/akshitgajera1013/Laptop-Price-Prediction.git](https://github.com/akshitgajera1013/Laptop-Price-Prediction.git)
+   
+        git clone [https://github.com/akshitgajera1013/Laptop-Price-Prediction.git](https://github.com/akshitgajera1013/Laptop-Price-Prediction.git)
 
 cd Laptop-Price-Prediction
 
 2. Create a Virtual Environment (Recommended)
 
-python -m venv venv
-source venv/bin/activate  # On Windows use: venv\Scripts\activate
+       python -m venv venv
+       source venv/bin/activate  # On Windows use: venv\Scripts\activate
 
 
 3. Install Dependencies
-pip install -r requirements.txt
+   
+       pip install -r requirements.txt
 
 4. Execute the Valuation Engine
-streamlit run app.py
+   
+       streamlit run app.py
 
 
 🧪 Model Performance Metrics
-R² Score: 0.855 (Captures 85.5% of market variance)
 
-Mean Absolute Error (MAE): €182.72
-
-Mean Squared Error (MSE): 73,548.17
+      R² Score: 0.855 (Captures 85.5% of market variance)
+      
+      Mean Absolute Error (MAE): €182.72
+      
+      Mean Squared Error (MSE): 73,548.17
 
 ⚙️ Hardware Input Tensor
 The neural network requires the following 10-dimensional input vector:
 
-Company (Apple, Dell, HP, etc.)
-
-TypeName (Ultrabook, Gaming, Notebook, etc.)
-
-Inches (Screen Scale)
-
-ScreenResolution (Panel Type & Pixel Density)
-
-Cpu (Processor Tier)
-
-Ram (System Memory in GB)
-
-Memory (Storage Configuration & Drive Type)
-
-Gpu (Graphics Compute Unit)
-
-OpSys (Operating System)
-
-Weight (Chassis Mass in kg)
+    Company (Apple, Dell, HP, etc.)
+    
+    TypeName (Ultrabook, Gaming, Notebook, etc.)
+    
+    Inches (Screen Scale)
+    
+    ScreenResolution (Panel Type & Pixel Density)
+    
+    Cpu (Processor Tier)
+    
+    Ram (System Memory in GB)
+    
+    Memory (Storage Configuration & Drive Type)
+    
+    Gpu (Graphics Compute Unit)
+    
+    OpSys (Operating System)
+    
+    Weight (Chassis Mass in kg)
