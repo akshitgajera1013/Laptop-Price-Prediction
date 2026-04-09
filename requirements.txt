@@ -1,13 +1,7 @@
-# UI & Dashboard Framework
-streamlit>=1.24.0
-
-# Data Manipulation & Array Math
-pandas>=1.5.3
-numpy>=1.23.5
-
-# Machine Learning & Deep Learning Backend
-tensorflow>=2.13.0
-scikit-learn>=1.2.2
-
-# Interactive Data Visualization
-plotly>=5.14.0
+numpy==2.3.5
+pandas==2.3.3
+scikit-learn==1.7.2
+streamlit==1.52.1
+plotly
+tensorflow
+keras
